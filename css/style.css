@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+.black{
+    /* this makes all images black and whiter */
+    filter: grayscale(100%);
+  } 
+.navbarContainer{
+    padding: 0 !important;
+}
+.navbar{
+    background: linear-gradient(to right, #000000 0%, #FFFFFF );
+    line-height: 50px;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+    margin-left: 20px;
+
+
+}
+.nav-item{
+    padding-right: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-toggler, .navbar-toggler > .collapsed {
+    border: none !important;
+}
+.navbar-toggler > .collapsed {
+    border: none !important;
+}
+
+.form-switch{
+   
+    margin-top: 20px;
+    /* padding-left: 10px; */
+    padding-right: 10px;
+    
+}
+.form-check-input{
+    border: none;
+    outline: none;
+}
+/* navbar css ends here */
+
+/* carousel section css starts here */
+.carousel {
+    max-width: 100vw;
+   max-height:100vh !important; 
+   position: relative;
+   /* padding: 1px 90px; */
+  }
+ 
+  .carousel-item img{
+    width: 100%;
+    height:90vh;
+    /* border-radius: 10px; */
+  }
+/* carousel section css ends here */
+/* whoe we are */
+.whowearetitle::before{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #D3D3D3;
+  left: 8%;
+  top: 50%;
+  position: absolute;
+}
+.whowearetitle{
+    margin: 00px auto;
+    color: #495057;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.whowearetitle::after{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #D3D3D3;
+  right:8%;
+  top: 50%;
+  position: absolute;
+}
+.whoweareh1{
+    line-height: 50px;
+    padding: 0 20px;
+}
+.whowearep{
+    line-height: 38px;
+    color: #495057;
+    padding: 0 20px;
+}
+/* services css
+ */
+ /* .servicestitle::before{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #D3D3D3;
+  left: 4%;
+  top: 50%;
+  position: absolute;
+} */
+.servicestitle{
+    margin: 00px auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    text-transform: uppercase;
+    position: relative;
+    background-color: grey;
+
+}
+/* .servicestitle::after{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #D3D3D3;
+  right:4%;
+  top: 50%;
+  position: absolute;
+} */
+.servicesh1{
+    line-height: 50px;
+    padding: 0 20px;
+}
+.servicesp{
+    line-height: 38px;
+    color: #495057;
+    padding: 0 20px;
+}
+.servicesimage{
+    width: 100%;
+    height: 600px !important;
+    border-radius: 10px;
+}
+/* recent works */
+/* .recentworkstitle::before{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #D3D3D3;
+  left: 8%;
+  top: 50%;
+  position: absolute;
+} */
+.recentworkstitle{
+    margin: 00px auto;
+    color:#ffffff;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    text-transform: uppercase;
+    position: relative;
+}
+/* .recentworkstitle::after{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #D3D3D3;
+  right:8%;
+  top: 50%;
+  position: absolute;
+} */
+
+/* cards */
+.card{
+    min-height: 250px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px!important;
+    transition: .25s;
+    
+}
+.card-body img{
+    width: 100%;
+    height: 400px;
+}
+
+
+/* footer css */
+
+/* footer */
+.footer{
+    background-color: #000000;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 55px 50px;
+    margin-top: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+}
+.footercontainer,.container-fluid{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;   
+}
+
+.footerpara1{
+  padding:10px 10px;
+  padding-right: 100px;
+  font: 14px;
+    color: #FFFFFF;
+}
+.footerpara2{
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-right: 0;
+    
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+}
+.col2 span{
+    font-size: 16px;
+    color: #ffff;
+    padding-bottom:25px ;
+}
+.col2 a{
+    text-decoration: none;
+    color:#d8d8d5;
+    font-size: 16px;
+    padding: 20px 0;
+    
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+}
+.col3 span{
+    font-size: 16px;
+    color: #ffff;
+    padding-bottom:25px ;
+}
+.col3 p{
+    font-size: 16px;
+    color:#d8d8d5;
+    padding-bottom:10px ;
+}
+.col3 a{
+    text-decoration: none;
+    color:#d8d8d5;
+    font-size: 16px;
+}
+.socicons{
+    padding-top: 30px;
+    height: 100px;
+}
+.socicons a{
+    padding-right: 20px;
+    color: white;
+    font-size:30px;
+
+}
+
+/* footer css ends */
+
+/* media queries */
+@media (max-width:999px){
+    .nav-item{
+        padding: 0;  
+    }
+    .nav-link{
+        color: aliceblue !important ;
+    }
+    .whoweareh1{
+        line-height: 35px;
+        padding: 0 20px;
+    }
+    .servicesh1{
+        line-height: 35px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:768px){
+    .carousel-item img{
+        width: 100%;
+        height:350px;
+        padding: 0px;
+      }
+      .recentworkstitle::after,.recentworkstitle::before,.whowearetitle::after,.whowearetitle::before,.servicestitle::after,.servicestitle::before{
+        display: none;
+      }
+     
+      .whoweareimage{
+        border-radius: 50%;
+        height: 380px !important;
+        width: 500px;
+      }
+      .whowearep{
+        line-height: 30px;
+
+      }
+      .servicestitle{
+        padding: 20px 0px;
+        margin: 0 10px;
+        border-radius: 5px;
+      }
+      .servicesimage{
+        padding: 10px;
+        border-radius: 30px;
+        height: 600px !important;
+        width: 380px;
+      }
+      .servicesp{
+        line-height: 30px;
+
+      }
+      .footerpara1{
+        padding-right: 0px;
+      }
+      .col3 a{
+        padding: 6px 0;
+      }
+      .logo {
+        padding:0px;
+        margin-left: 0px;
+        width: 80px;
+    }
+    .footerpara2 {
+        padding-top: 10px;
+        padding-right: 0;
+    }
+    .socicons a{
+        padding-right: 20px;
+        color: white;
+        font-size:30px;
+    
+    }
+      
+}
+/* css for reviw section taken from internet and conflicts removed  */
+.reviewcontainer {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #090921;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    width: 43%;
+}
+
+.clientImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clientImage span {
+    margin-left: 10px;
+}
+
+.clientImage img {
+    width: 40px;
+}
+
+.reviewSection {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviewItem {
+    width: 300px;
+    padding: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #10102a;
+    border: 1px solid #10102a;
+    transition: all .2s linear;
+}
+
+.reviewItem:hover {
+    border-color: aqua;
+    transform: scale(1.01);
+    background-color: #090921;
+    box-shadow: 0 0px 5px 0px #cbc0c0;
+}
+
+.top {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+}
+
+.top ul li {
+    padding-left: 4px;
+}
+
+article p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    font-family: system-ui;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .reviewcontainer {
+        height: auto;
+    }
+
+    .description {
+        width: 90%;
+    }
+    .check-large{
+        display: none;
+    }
+    .check-small{
+        margin-left: 0px;
+        /* font-size: 20px; */
+    }
+    .form-switch1{
+        margin-left: 0px;
+        font-size: 25px;
+        border: none;
+       
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    .reviewSection {
+        padding: 0;
+    }
+
+    .reviewItem {
+        width: 100%;
+    }
+
+    .clientImage {
+        margin-bottom: 0.6rem;
+    }
+
+    .top {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

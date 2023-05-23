@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    overflow-x: hidden !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+.leftside{
+    padding: 60px 40px 100px 80px;
+    margin-bottom: 0;
+    }
+    .reachus{
+        font-size: 44px;
+        color: #19496E !important;
+    line-height: 54px;
+    padding: 10px 0 0 20px;
+    }
+    
+    .leftpara1{
+        font-size: 26px;
+        color: #19496E !important;
+        line-height: 40px;
+ 
+    }
+    .para2{
+     font-size: 18px;  
+      color: #19496E !important;
+      line-height: 30px;    
+    }
+    
+    .fa{
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    .para{
+        color: #19496E !important;
+        font-size: 18px;
+    }
+    
+    
+    @media screen and (max-width:991px){
+        .leftside{
+            
+             background-image: linear-gradient(#a8dadc,#00b4d8);
+        }
+    }
+    @media screen and (max-width:768px){
+        .leftside{
+            padding: 50px 60px;
+             background-image: linear-gradient(#a8dadc,#00b4d8);
+        }
+        
+    }
+    @media screen and (max-width:600px){
+        .leftside{
+            padding: 50px 40px;
+             background-image: linear-gradient(#a8dadc,#00b4d8);
+        }
+        .reachus{
+            margin-bottom: -1rem !important;
+        }
+    }
